@@ -1,0 +1,132 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body
+{
+  
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+header
+{
+    display: flex;
+    background-color: bisque;
+    height: 80px;
+   justify-content: space-between;
+    align-items: center;
+        font-family: SourceSansPro;
+      
+  
+
+}
+
+.navbar
+{
+flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.navbar a 
+{
+      font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ajio
+{
+    height: 37.7px;
+    width: 130px;
+    margin-left: 150px;
+}
+
+.right_section input {
+    width: 260px;
+       height: 40px;             
+    padding: 0 15px;  
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    
+}
+
+.right_section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 80px;
+}
+
+.icons {
+   
+     display: flex;
+    gap: 12px;
+align-items: center;
+   
+}
+
+.icon_style {
+    width: 40px;
+    height: 40px;
+    background-color: #2f4156;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 1;
+    vertical-align: middle;
+  
+}
+
+.icon_style i {
+    transform: translateY(1px);
+}
+
+.dropdown
+{
+    position: relative;
+}
+
+.dropdown_menu
+{
+    position: absolute;
+    top:100%;
+    left:0;
+       background: white;
+    min-width: 180px;
+    padding: 10px 0;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+         display: none;
+    flex-direction: column;
+}
+
+.dropdown_menu a {
+    padding: 10px 20px;
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: black;
+    display: block;
+}
+
+.dropdown_menu a:hover {
+    background-color: #f3f3f3;
+}
+
+.dropdown:hover .dropdown_menu {
+    display: flex;
+}
